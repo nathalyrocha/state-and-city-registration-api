@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2021_07_20_202332) do
 
   create_table "cities", force: :cascade do |t|
     t.string "name"
-    t.string "abbreviation"
     t.bigint "state_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

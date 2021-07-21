@@ -78,8 +78,3 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: workingminds_api_production
-  username: workingminds_api
-  password: <%= ENV['WORKINGMINDS_API_DATABASE_PASSWORD'] %>

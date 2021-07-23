@@ -1,17 +1,27 @@
 # Cadastro de Estados e Cidades - API
 
 * Rotas:
-- 'v1/cities'
-- 'v1/states'
+```
+'v1/cities'
+'v1/states'
+```
 
 * Para instalar as dependências:
-- bundle install
+```
+bundle install
+```
 
 * Para criar o banco de dados:
-- rake db:creat:all
+```
+rake db:creat:all
+```
 
 * Para criar as tabelas:
-- rake db:migrate
+```
+rake db:migrate
+```
 
 * Para rodar o projeto:
-- rails s
+```
+rails s
+```

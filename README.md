@@ -1,24 +1,17 @@
-# README
+# Cadastro de Estados e Cidades - API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Rotas:
+- 'v1/cities'
+- 'v1/states'
 
-Things you may want to cover:
+* Para instalar as dependências:
+- bundle install
 
-* Ruby version
+* Para criar o banco de dados:
+- rake db:creat:all
 
-* System dependencies
+* Para criar as tabelas:
+- rake db:migrate
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Para rodar o projeto:
+- rails s
